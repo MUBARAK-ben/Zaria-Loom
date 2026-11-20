@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaria Loom — Bespoke Atelier & Heritage Tailoring</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand">ZARIA <span>LOOM</span></a>
+      <nav class="nav-links">
+        <a href="#collections">Collections</a>
+        <a href="#process">Process</a>
+        <a href="#atelier">Atelier</a>
+      </nav>
+      <button class="btn btn-gold open-modal-btn" data-garment="Custom Bespoke Piece">Book Fitting</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">BESPOKE TAILORING • ABUJA & ZARIA</p>
+          <h1>Tailored heritage, cut for the modern silhouette.</h1>
+          <p class="lead">
+            Hand-finished agbadas, structured kaftans, and architectural evening wear crafted from pure linen, raw silk, and woven damask.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-gold open-modal-btn" data-garment="Private Consultation">Schedule Private Fitting</button>
+            <a href="#collections" class="btn btn-outline">Explore Lookbook</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="look-visual look-1">
+            <span class="tag">SIGNATURE EDITION</span>
+          </div>
+          <div class="hero-card-meta">
+            <div>
+              <h3>The Emirate Linen Kaftan</h3>
+              <p>Hand-loomed ivory cotton-linen with tonal embroidery</p>
+            </div>
+            <span class="turnaround">10–14 Days</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="collections" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">CURATED ARCHIVE</p>
+            <h2>Seasonal Lookbook</h2>
+          </div>
+          <div class="filter-bar" role="group" aria-label="Filter collection">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ceremonial">Ceremonial</button>
+            <button class="filter-btn" data-filter="executive">Executive</button>
+            <button class="filter-btn" data-filter="everyday">Everyday Luxe</button>
+          </div>
+        </div>
+
+        <div class="lookbook-grid" id="lookbookGrid">
+          <article class="garment-card" data-category="ceremonial">
+            <div class="look-visual look-1"><span class="tag">CEREMONIAL</span></div>
+            <div class="card-body">
+              <h3>Sovereign Silk Agbada</h3>
+              <p>Three-piece raw silk ensemble with hand-stitched geometric neckline.</p>
+              <div class="card-footer">
+                <span>14 Days Turnaround</span>
+                <button class="text-link open-modal-btn" data-garment="Sovereign Silk Agbada">Request Cut →</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="garment-card" data-category="executive">
+            <div class="look-visual look-2"><span class="tag">EXECUTIVE</span></div>
+            <div class="card-body">
+              <h3>Kaduna Structured Senator</h3>
+              <p>Sharp architectural shoulder line in breathable charcoal wool-blend.</p>
+              <div class="card-footer">
+                <span>7 Days Turnaround</span>
+                <button class="text-link open-modal-btn" data-garment="Kaduna Structured Senator">Request Cut →</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="garment-card" data-category="everyday">
+            <div class="look-visual look-3"><span class="tag">EVERYDAY LUXE</span></div>
+            <div class="card-body">
+              <h3>Savannah Mandarin Tunic</h3>
+              <p>Relaxed drape organic cotton with concealed mother-of-pearl placket.</p>
+              <div class="card-footer">
+                <span>5 Days Turnaround</span>
+                <button class="text-link open-modal-btn" data-garment="Savannah Mandarin Tunic">Request Cut →</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="garment-card" data-category="ceremonial">
+            <div class="look-visual look-4"><span class="tag">CEREMONIAL</span></div>
+            <div class="card-body">
+              <h3>Zazzau Woven Damask Set</h3>
+              <p>Rich bronze-threaded damask cut with tailored trouser taper.</p>
+              <div class="card-footer">
+                <span>12 Days Turnaround</span>
+                <button class="text-link open-modal-btn" data-garment="Zazzau Woven Damask Set">Request Cut →</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">THE ATELIER STANDARD</p>
+        <h2>Three Steps to Your Custom Fit</h2>
+        <div class="process-grid">
+          <div class="process-step">
+            <span class="step-num">01</span>
+            <h3>Fabric & Silhouette</h3>
+            <p>Select from imported linens, raw silks, and heritage weaves guided by our head cutter.</p>
+          </div>
+          <div class="process-step">
+            <span class="step-num">02</span>
+            <h3>24-Point Measurement</h3>
+            <p>In-studio or virtual guided measurements recorded to your permanent client profile.</p>
+          </div>
+          <div class="process-step">
+            <span class="step-num">03</span>
+            <h3>Hand-Finished Delivery</h3>
+            <p>Final pressing, quality inspection, and garment-bag delivery within your timeline.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="atelier" class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="#" class="brand">ZARIA <span>LOOM</span></a>
+        <p>Bespoke Heritage & Contemporary Tailoring • Wuse II, Abuja & Zaria</p>
+      </div>
+      <p class="copyright">© 2026 Zaria Loom Atelier. Crafted for Portfolio Showcase.</p>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div class="modal-backdrop" id="bookingModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeModalBtn" aria-label="Close modal">&times;</button>
+      <p class="eyebrow">PRIVATE APPOINTMENT</p>
+      <h2 id="modalTitle">Reserve a Fitting</h2>
+      <form id="fittingForm">
+        <label>
+          Full Name
+          <input type="text" id="clientName" required placeholder="e.g. Ibrahim Musa" />
+        </label>
+        <label>
+          Selected Piece
+          <input type="text" id="selectedGarment" readonly />
+        </label>
+        <label>
+          Preferred Fabric Tone
+          <select id="fabricChoice">
+            <option>Ivory Linen</option>
+            <option>Charcoal Wool-Blend</option>
+            <option>Midnight Indigo Silk</option>
+            <option>Sandstone Cotton</option>
+          </select>
+        </label>
+        <label>
+          Preferred Date
+          <input type="date" id="fittingDate" required />
+        </label>
+        <button type="submit" class="btn btn-gold full-width">Confirm Reservation</button>
+      </form>
+      <p class="form-feedback" id="formFeedback" hidden></p>
+    </div>
+  </div>
+</body>
+</html>
